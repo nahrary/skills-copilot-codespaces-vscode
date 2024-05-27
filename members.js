@@ -14,4 +14,6 @@ function skillsMember() {
         default:
             document.getElementById('skills').innerHTML = "Sorry, we don't have information about this player";
     }
+
+    return false;
 }
